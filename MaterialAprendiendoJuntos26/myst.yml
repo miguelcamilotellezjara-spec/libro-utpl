@@ -1,0 +1,24 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 864ee591-a270-4489-861a-05515ff4982e
+  title: "Manual de Fundamentos de Programación - UTPL 2026"
+  description: "Guía práctica de programación para estudiantes"
+  # keywords: []
+  # authors: []
+  # github:
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  nav:
+    - file: material por semanas/semana 1/01_1.1Metodología_de_solución_de_problemas.md
+    - title: "Material Por Semanas"
+      children:
+        - file: material por semanas/semana 1/02_1.2Lógica_de_la_Programación.md
+        - file: material por semanas/semana 2/01_2.1Elementos_básicos_de_la_programación.md
+    - title: "Material Solicitado"
+      children:
+        - file: material solicitado/01_Fork_Paso1.md
+        - file: material solicitado/02_Fork_Paso2.md
+        - file: material solicitado/03_Fork_Paso3.md
+        - file: material solicitado/04_If_else.md
